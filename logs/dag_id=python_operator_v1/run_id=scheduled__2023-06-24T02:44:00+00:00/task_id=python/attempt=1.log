@@ -1,0 +1,4 @@
+{"timestamp":"2025-07-29T19:48:37.465110","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-29T19:48:37.465729","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/python_operator_v1.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-29T19:48:37.465935","level":"error","event":"DAG not found during start up","dag_id":"python_operator_v1","bundle":"BundleInfo(name='dags-folder', version=None)","path":"python_operator_v1.py","logger":"task"}
+{"timestamp":"2025-07-29T19:48:37.486154Z","level":"warning","event":"Process exited abnormally","exit_code":1,"logger":"task"}

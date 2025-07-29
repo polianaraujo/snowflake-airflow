@@ -1,0 +1,15 @@
+{"timestamp":"2025-07-29T18:17:13.866103","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-07-29T18:17:13.867022","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/primeira_dag_v0.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-07-29T18:17:13.920318Z","level":"info","event":"Task instance is in running state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T18:17:13.920445Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T18:17:13.920523Z","level":"info","event":"Current task name:hello","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T18:17:13.920571Z","level":"info","event":"Dag name:a_primeira_DAG_v0","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T18:17:13.921588","level":"info","event":"Tmp dir root location: /tmp","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-29T18:17:13.923692","level":"info","event":"Running command: ['/usr/bin/bash', '-c', 'echo hello world']","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-29T18:17:13.935051","level":"info","event":"Output:","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-29T18:17:13.941759","level":"info","event":"hello world","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-29T18:17:13.942029","level":"info","event":"Command exited with return code 0","logger":"airflow.task.hooks.airflow.providers.standard.hooks.subprocess.SubprocessHook"}
+{"timestamp":"2025-07-29T18:17:13.942876","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('01985767-1248-7abf-acf0-4dbf071e796e'), task_id='hello', dag_id='a_primeira_DAG_v0', run_id='scheduled__2025-07-29T00:00:00+00:00', try_number=1, map_index=-1, hostname='bf6f1e7a6f11', context_carrier={}, task=<Task(BashOperator): hello>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2025, 7, 29, 18, 17, 11, 652107, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None, log_url='http://localhost:8080/dags/a_primeira_DAG_v0/runs/scheduled__2025-07-29T00%3A00%3A00%2B00%3A00/tasks/hello?try_number=1')","logger":"task"}
+{"timestamp":"2025-07-29T18:17:13.974382Z","level":"info","event":"Task instance in success state","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T18:17:13.974482Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","chan":"stdout","logger":"task"}
+{"timestamp":"2025-07-29T18:17:13.974734Z","level":"info","event":"Task operator:<Task(BashOperator): hello>","chan":"stdout","logger":"task"}
